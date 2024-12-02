@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	<header>
+		<title>
+			Mobile Team Winter Celebration
+		</title>
+		<welcomeMessage>
+			This party is a special moment to celebrate our shared achievements and the strong
+			connections we've built while working together. While not all of you are part of the
+			current team, the bonds we've created through collaboration and dedication deserve
+			to be honored and what better time than during the holidays?
+		</welcomeMessage>
+	</header>
+	<eventInfo>
+		<countdown>
+			<title>
+				Time Until Event
+			</title>
+			<units>
+				<days>
+					d
+				</days>
+				<hours>
+					h
+				</hours>
+				<minutes>
+					m
+				</minutes>
+				<seconds>
+					s
+				</seconds>
+			</units>
+		</countdown>
+		<location>
+			<title>
+				Location
+			</title>
+		</location>
+		<time>
+			<title>
+				Time
+			</title>
+		</time>
+		<weather>
+			<title>
+				Weather Forecast
+			</title>
+			<loading>
+				Loading weather data...
+			</loading>
+			<error>
+				Unable to load weather data
+			</error>
+		</weather>
+	</eventInfo>
+	<form>
+		<title>
+			Please tell us what dish, drink, or treat you plan to bring!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Your Name
+				</label>
+				<placeholder>
+					Enter your name
+				</placeholder>
+			</name>
+			<item>
+				<label>
+					Item Name
+				</label>
+				<placeholder>
+					What are you bringing?
+				</placeholder>
+			</item>
+			<category>
+				<label>
+					Category
+				</label>
+				<options>
+					<beverages>
+						🥤 Beverages
+					</beverages>
+					<savory>
+						🧀 Savory
+					</savory>
+					<sweets>
+						🍰 Sweets
+					</sweets>
+					<other>
+						✨ Other
+					</other>
+				</options>
+			</category>
+			<notes>
+				<label>
+					Notes
+				</label>
+				<placeholder>
+					Allergies, preferences, etc.
+				</placeholder>
+			</notes>
+		</fields>
+		<buttons>
+			<add>
+				Add Item
+			</add>
+			<adding>
+				Adding...
+			</adding>
+		</buttons>
+	</form>
+	<messages>
+		<success>
+			Item added successfully!
+		</success>
+		<error>
+			<addItem>
+				Failed to add item. Please try again.
+			</addItem>
+			<deleteItem>
+				Error deleting item. Please try again.
+			</deleteItem>
+			<loadItems>
+				Error loading items. Please try again.
+			</loadItems>
+		</error>
+		<confirmation>
+			<deleteItem>
+				Are you sure you want to delete this item?
+			</deleteItem>
+		</confirmation>
+	</messages>
+	<categories>
+		<emptyState>
+			No items yet
+		</emptyState>
+	</categories>
+	<footer>
+		<message>
+			Let's enjoy, laugh, and create wonderful memories tonight!
+		</message>
+		<heart>
+			❤️
+		</heart>
+	</footer>
+	<photoUpload>
+		<title>
+			Share Your Party Photos!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Your Name *
+				</label>
+			</name>
+			<photos>
+				<label>
+					Select Photos *
+				</label>
+				<maxSize>
+					Maximum file size: 5MB per photo
+				</maxSize>
+			</photos>
+			<uploadButton>
+				Upload Photos
+			</uploadButton>
+		</fields>
+		<messages>
+			<nameRequired>
+				Please enter your name
+			</nameRequired>
+			<invalidFile>
+				{filename} is not an image file
+			</invalidFile>
+			<compressionNotice>
+				{filename} will be compressed
+			</compressionNotice>
+			<uploadFailed>
+				Failed to upload {filename}
+			</uploadFailed>
+			<deleteFailed>
+				Failed to delete photo. Please try again.
+			</deleteFailed>
+			<deleteConfirm>
+				Are you sure you want to delete this photo?
+			</deleteConfirm>
+			<completeDeleteFailed>
+				Failed to completely delete photo. Please try again.
+			</completeDeleteFailed>
+			<uploadingProgress>
+				Uploading {current}/{total} photos...
+			</uploadingProgress>
+			<uploadedBy>
+				By:
+			</uploadedBy>
+		</messages>
+	</photoUpload>
+	<feedback>
+		<title>
+			Leave Your Feedback!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Your Name *
+				</label>
+			</name>
+			<message>
+				<label>
+					Your Message *
+				</label>
+			</message>
+			<submitButton>
+				Send Feedback
+			</submitButton>
+		</fields>
+		<messages>
+			<required>
+				Please fill in all fields
+			</required>
+			<submitFailed>
+				Failed to send feedback. Please try again.
+			</submitFailed>
+			<updateFailed>
+				Failed to update feedback
+			</updateFailed>
+			<deleteFailed>
+				Failed to delete feedback
+			</deleteFailed>
+		</messages>
+		<actions>
+			<edit>
+				Edit
+			</edit>
+			<delete>
+				Delete
+			</delete>
+			<save>
+				Save
+			</save>
+			<cancel>
+				Cancel
+			</cancel>
+			<deleteConfirm>
+				Are you sure you want to delete this feedback?
+			</deleteConfirm>
+		</actions>
+	</feedback>
+	<legal>
+		<links>
+			<terms>
+				Terms of Use
+			</terms>
+			<privacy>
+				Privacy Policy
+			</privacy>
+		</links>
+	</legal>
+</strings>

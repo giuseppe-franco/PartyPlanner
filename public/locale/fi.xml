@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	<header>
+		<title>
+			Mobiilitiimin Talvijuhla
+		</title>
+		<welcomeMessage>
+			Tämä juhla on erityinen hetki juhlistaa yhteisiä saavutuksiamme ja vahvoja
+			siteitä, joita olemme luoneet työskennellessämme yhdessä. Vaikka kaikki
+			teistä eivät ole enää osa nykyistä tiimiä, yhteistyön ja omistautumisen
+			kautta luomamme siteet ansaitsevat tulla juhlistetuiksi ja mikä olisikaan
+			parempi aika kuin juhlakausi?
+		</welcomeMessage>
+	</header>
+	<eventInfo>
+		<countdown>
+			<title>
+				Aikaa tapahtumaan
+			</title>
+			<units>
+				<days>
+					pv
+				</days>
+				<hours>
+					t
+				</hours>
+				<minutes>
+					min
+				</minutes>
+				<seconds>
+					s
+				</seconds>
+			</units>
+		</countdown>
+		<location>
+			<title>
+				Sijainti
+			</title>
+			<value>
+				WithSecure HQ, 7. kerros, Helsinki
+			</value>
+		</location>
+		<time>
+			<title>
+				Aika
+			</title>
+			<value>
+				17:00 - 23:00
+			</value>
+		</time>
+		<weather>
+			<title>
+				Sääennuste
+			</title>
+			<loading>
+				Ladataan säätietoja...
+			</loading>
+			<error>
+				Säätietojen lataus epäonnistui
+			</error>
+		</weather>
+	</eventInfo>
+	<form>
+		<title>
+			Kerro meille, mitä ruokaa, juomaa tai herkkua aiot tuoda!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Nimesi
+				</label>
+				<placeholder>
+					Kirjoita nimesi
+				</placeholder>
+			</name>
+			<item>
+				<label>
+					Tuotavan ruoan nimi
+				</label>
+				<placeholder>
+					Mitä tuot mukanasi?
+				</placeholder>
+			</item>
+			<category>
+				<label>
+					Kategoria
+				</label>
+				<options>
+					<beverages>
+						🥤 Juomat
+					</beverages>
+					<savory>
+						🧀 Suolaiset
+					</savory>
+					<sweets>
+						🍰 Makeat
+					</sweets>
+					<other>
+						✨ Muut
+					</other>
+				</options>
+			</category>
+			<notes>
+				<label>
+					Huomautukset
+				</label>
+				<placeholder>
+					Allergiat, mieltymykset, yms.
+				</placeholder>
+			</notes>
+		</fields>
+		<buttons>
+			<add>
+				Lisää
+			</add>
+			<adding>
+				Lisätään...
+			</adding>
+		</buttons>
+	</form>
+	<messages>
+		<success>
+			Lisätty onnistuneesti!
+		</success>
+		<error>
+			<addItem>
+				Lisääminen epäonnistui. Yritä uudelleen.
+			</addItem>
+			<deleteItem>
+				Poistaminen epäonnistui. Yritä uudelleen.
+			</deleteItem>
+			<loadItems>
+				Tietojen lataus epäonnistui. Yritä uudelleen.
+			</loadItems>
+		</error>
+		<confirmation>
+			<deleteItem>
+				Haluatko varmasti poistaa tämän?
+			</deleteItem>
+		</confirmation>
+	</messages>
+	<categories>
+		<emptyState>
+			Ei vielä lisättyjä tuotteita
+		</emptyState>
+	</categories>
+	<footer>
+		<message>
+			Nautitaan, nauretaan ja luodaan ihania muistoja yhdessä!
+		</message>
+		<heart>
+			❤️
+		</heart>
+	</footer>
+	<photoUpload>
+		<title>
+			Jaa Juhlakuvia!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Nimesi *
+				</label>
+			</name>
+			<photos>
+				<label>
+					Valitse Kuvat *
+				</label>
+				<maxSize>
+					Maksimikoko: 5MB per kuva
+				</maxSize>
+			</photos>
+			<uploadButton>
+				Lataa Kuvat
+			</uploadButton>
+		</fields>
+		<messages>
+			<nameRequired>
+				Syötä nimesi
+			</nameRequired>
+			<invalidFile>
+				{filename} ei ole kuvatiedosto
+			</invalidFile>
+			<compressionNotice>
+				{filename} pakataan
+			</compressionNotice>
+			<uploadFailed>
+				Kuvan {filename} lataus epäonnistui
+			</uploadFailed>
+			<deleteFailed>
+				Kuvan poisto epäonnistui. Yritä uudelleen.
+			</deleteFailed>
+			<deleteConfirm>
+				Haluatko varmasti poistaa tämän kuvan?
+			</deleteConfirm>
+			<completeDeleteFailed>
+				Kuvan täydellinen poisto epäonnistui. Yritä uudelleen.
+			</completeDeleteFailed>
+			<uploadingProgress>
+				Ladataan {current}/{total} kuvaa...
+			</uploadingProgress>
+			<uploadedBy>
+				Lähettäjä:
+			</uploadedBy>
+		</messages>
+	</photoUpload>
+	<feedback>
+		<title>
+			Jätä Palautetta!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Nimesi *
+				</label>
+			</name>
+			<message>
+				<label>
+					Viestisi *
+				</label>
+			</message>
+			<submitButton>
+				Lähetä Palaute
+			</submitButton>
+		</fields>
+		<messages>
+			<required>
+				Täytä kaikki kentät
+			</required>
+			<submitFailed>
+				Palautteen lähetys epäonnistui. Yritä uudelleen.
+			</submitFailed>
+			<updateFailed>
+				Palautteen päivitys epäonnistui
+			</updateFailed>
+			<deleteFailed>
+				Palautteen poisto epäonnistui
+			</deleteFailed>
+		</messages>
+		<actions>
+			<edit>
+				Muokkaa
+			</edit>
+			<delete>
+				Poista
+			</delete>
+			<save>
+				Tallenna
+			</save>
+			<cancel>
+				Peruuta
+			</cancel>
+			<deleteConfirm>
+				Haluatko varmasti poistaa tämän palautteen?
+			</deleteConfirm>
+		</actions>
+	</feedback>
+	<legal>
+		<links>
+			<terms>
+				Käyttöehdot
+			</terms>
+			<privacy>
+				Tietosuojakäytäntö
+			</privacy>
+		</links>
+	</legal>
+</strings>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	<header>
+		<title>
+			Festa Invernale del Team Mobile
+		</title>
+		<welcomeMessage>
+			Questa festa è un momento speciale per celebrare i nostri successi condivisi e i forti
+			legami che abbiamo costruito lavorando insieme. Anche se non tutti voi fate parte
+			del team attuale, i legami che abbiamo creato attraverso la collaborazione e la
+			dedizione meritano di essere onorati e quale momento migliore se non durante le festività?
+		</welcomeMessage>
+	</header>
+	<eventInfo>
+		<countdown>
+			<title>
+				Tempo all'Evento
+			</title>
+			<units>
+				<days>
+					g
+				</days>
+				<hours>
+					o
+				</hours>
+				<minutes>
+					m
+				</minutes>
+				<seconds>
+					s
+				</seconds>
+			</units>
+		</countdown>
+		<location>
+			<title>
+				Luogo
+			</title>
+		</location>
+		<time>
+			<title>
+				Orario
+			</title>
+		</time>
+		<weather>
+			<title>
+				Previsioni Meteo
+			</title>
+			<loading>
+				Caricamento dati meteo...
+			</loading>
+			<error>
+				Impossibile caricare i dati meteo
+			</error>
+		</weather>
+	</eventInfo>
+	<form>
+		<title>
+			Per favore, dicci quale piatto, bevanda o dolce hai intenzione di portare!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Il tuo Nome
+				</label>
+				<placeholder>
+					Inserisci il tuo nome
+				</placeholder>
+			</name>
+			<item>
+				<label>
+					Nome del Piatto
+				</label>
+				<placeholder>
+					Cosa porterai?
+				</placeholder>
+			</item>
+			<category>
+				<label>
+					Categoria
+				</label>
+				<options>
+					<beverages>
+						🥤 Bevande
+					</beverages>
+					<savory>
+						🧀 Salati
+					</savory>
+					<sweets>
+						🍰 Dolci
+					</sweets>
+					<other>
+						✨ Altro
+					</other>
+				</options>
+			</category>
+			<notes>
+				<label>
+					Note
+				</label>
+				<placeholder>
+					Allergie, preferenze, ecc.
+				</placeholder>
+			</notes>
+		</fields>
+		<buttons>
+			<add>
+				Aggiungi
+			</add>
+			<adding>
+				Aggiungendo...
+			</adding>
+		</buttons>
+	</form>
+	<messages>
+		<success>
+			Piatto aggiunto con successo!
+		</success>
+		<error>
+			<addItem>
+				Impossibile aggiungere il piatto. Riprova.
+			</addItem>
+			<deleteItem>
+				Errore durante l'eliminazione. Riprova.
+			</deleteItem>
+			<loadItems>
+				Errore durante il caricamento. Riprova.
+			</loadItems>
+		</error>
+		<confirmation>
+			<deleteItem>
+				Sei sicuro di voler eliminare questo piatto?
+			</deleteItem>
+		</confirmation>
+	</messages>
+	<categories>
+		<emptyState>
+			Nessun elemento ancora
+		</emptyState>
+	</categories>
+	<footer>
+		<message>
+			Godiamoci la serata, ridiamo e creiamo meravigliosi ricordi insieme!
+		</message>
+		<heart>
+			❤️
+		</heart>
+	</footer>
+	<photoUpload>
+		<title>
+			Condividi le Foto della Festa!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Il Tuo Nome *
+				</label>
+			</name>
+			<photos>
+				<label>
+					Seleziona Foto *
+				</label>
+				<maxSize>
+					Dimensione massima file: 5MB per foto
+				</maxSize>
+			</photos>
+			<uploadButton>
+				Carica Foto
+			</uploadButton>
+		</fields>
+		<messages>
+			<nameRequired>
+				Inserisci il tuo nome
+			</nameRequired>
+			<invalidFile>
+				{filename} non è un file immagine
+			</invalidFile>
+			<compressionNotice>
+				{filename} verrà compresso
+			</compressionNotice>
+			<uploadFailed>
+				Caricamento di {filename} fallito
+			</uploadFailed>
+			<deleteFailed>
+				Eliminazione della foto fallita. Riprova.
+			</deleteFailed>
+			<deleteConfirm>
+				Sei sicuro di voler eliminare questa foto?
+			</deleteConfirm>
+			<completeDeleteFailed>
+				Eliminazione completa della foto fallita. Riprova.
+			</completeDeleteFailed>
+			<uploadingProgress>
+				Caricamento {current}/{total} foto...
+			</uploadingProgress>
+			<uploadedBy>
+				Da:
+			</uploadedBy>
+		</messages>
+	</photoUpload>
+	<feedback>
+		<title>
+			Lascia il Tuo Feedback!
+		</title>
+		<fields>
+			<name>
+				<label>
+					Il Tuo Nome *
+				</label>
+			</name>
+			<message>
+				<label>
+					Il Tuo Messaggio *
+				</label>
+			</message>
+			<submitButton>
+				Invia Feedback
+			</submitButton>
+		</fields>
+		<messages>
+			<required>
+				Compila tutti i campi
+			</required>
+			<submitFailed>
+				Invio feedback fallito. Riprova.
+			</submitFailed>
+			<updateFailed>
+				Aggiornamento feedback fallito
+			</updateFailed>
+			<deleteFailed>
+				Eliminazione feedback fallita
+			</deleteFailed>
+		</messages>
+		<actions>
+			<edit>
+				Modifica
+			</edit>
+			<delete>
+				Elimina
+			</delete>
+			<save>
+				Salva
+			</save>
+			<cancel>
+				Annulla
+			</cancel>
+			<deleteConfirm>
+				Sei sicuro di voler eliminare questo feedback?
+			</deleteConfirm>
+		</actions>
+	</feedback>
+	<legal>
+		<links>
+			<terms>
+				Termini di Utilizzo
+			</terms>
+			<privacy>
+				Informativa sulla Privacy
+			</privacy>
+		</links>
+	</legal>
+</strings>
